@@ -1,0 +1,171 @@
+body {
+  background-color: #F2F2F2 !important;
+  margin: 0;
+}
+p {
+  color: black;
+}
+h1 {
+  margin: 0;
+  font-size: 60px;
+}
+.main {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+}
+.mainmenu {
+  text-align: center;
+  background-color: #1F2831;
+  border: 1px solid #1F2831;
+  /*margin-top: 10;*/
+  position: relative;
+  z-index: 100;
+}
+/*.botmenu {
+  text-align: center;
+  border-left: 1px solid #1F2831;
+  border-bottom: 1px solid #1F2831;
+  border-top: 1px solid #1F2831;
+  background-color: #1F2831;
+}
+.listbot li{
+  display: inline-block;
+  padding-right: 70px;
+}
+.linkbot {
+    text-decoration: none;
+    font-family: "Times New Roman", arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ccffff;
+}
+.linkbot:hover {
+  color: #00ff99;
+}*/
+
+.list li {
+  display: inline;
+  padding-right: 70px;
+}
+
+.listfoto li {
+  display: inline;
+  padding-right: 50px;
+}
+.link {
+  display: inline-block;
+  text-decoration: none;
+  /*font-family: "Lobster", arial, sans-serif;
+  color: #646464;*/
+  /*font-family: "Times New Roman", arial, sans-serif;
+  font-family: "HCo Tungsten",  sans-serif;*/
+  font-family: "MS Sans Serif", sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+  color: #66ffff;
+}
+.link:hover {
+  color: #00ff99;
+}
+.link::after{
+display: block;
+position: relative;
+content: "";
+height: 4px;
+width: 0;
+background-color: #00ff99;
+transition: width 0.5s ease-in-out, left 0.05s ease-in-out;
+}
+.link:hover::after{
+width: 100%;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: 450px;
+  background: url("new2.JPG") center no-repeat;
+  background-size: cover;
+}
+
+.fotolink {
+  display: block;
+  width: 400px;
+  height: 450px;
+  background: url("new1.JPG") center no-repeat;
+}
+
+
+figure {
+  width: 300px;
+  text-align: center;
+  font-style: italic;
+  /* font-size: smaller; */
+  /* text-indent: 0; */
+  /* border: thin silver solid; */
+  margin: 0;
+  padding: 0;
+}
+.tablephoto {
+  width: 100%;
+  border-top: 2px solid white;
+  border-spacing: 0px 20px;
+}
+td {
+  margin: 50%;
+}
+
+.flink {
+  text-decoration: none;
+}
+.flink:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.new1 {
+    min-width: 300px;
+    min-height: 150px;
+    background: url("new11.JPG");
+    background-size: cover;
+}
+
+.modric {
+  min-width: 300px;
+  min-height: 150px;
+  background: url("modric.JPG");
+  background-size: cover;
+}
+
+.new2 {
+  min-width: 300px;
+  min-height: 150px;
+  background: url("fifa2018.JPG");
+  background-size: cover;
+}
+
+.textmenu {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.lastmenu {
+  border: 20px solid #282828;
+}
+
+.mail{
+  padding-top: 0px;
+  margin: 0;
+  color: white;
+  background-color: #282828;
+}
+.lmail {
+  text-decoration: none;
+  font-family: "Neh Times Roman";
+  color: white;
+}
+.lmail:hover {
+  color: #00ff99;
+}
