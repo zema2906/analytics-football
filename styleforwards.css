@@ -1,0 +1,138 @@
+.mainfoto {
+  background-color: #66ffff;
+  text-align: center;
+}
+h1{
+  font-family: "HCo Tungsten", Arial, sans-serif;
+  color: rgb(8, 48, 98);
+}
+h2 {
+  color: #ff9999;
+}
+p {
+  font-family: bentonsans, Helvetica, Arial, sans-serif;
+}
+.foto {
+  /* display: block;
+  margin: auto; */
+  width: 80%;
+  height: 80%;
+}
+td.rank, td.name {
+  border-style:solid;
+  border-left-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 20px;
+  border-color: #66ffff;
+}
+tr {
+  background: white;
+}
+.goalkeeperstable {
+  border-spacing: 1px 20px;
+}
+#r1 {
+  background: url("1.jpg") center no-repeat;
+  background-size: cover;
+}
+#r2 {
+  background: url("2.jpg") center no-repeat;
+  background-size: cover;
+}
+#r3 {
+  background: url("3.jpg") center no-repeat;
+  background-size: cover;
+}
+#r4 {
+  background: url("4.jpg") center no-repeat;
+  background-size: cover;
+}
+#r5 {
+  background: url("5.jpg") center no-repeat;
+  background-size: cover;
+}
+#r6 {
+  background: url("6.jpg") center no-repeat;
+  background-size: cover;
+}
+#r7 {
+  background: url("7.jpg") center no-repeat;
+  background-size: cover;
+}
+#r8 {
+  background: url("8.jpg") center no-repeat;
+  background-size: cover;
+}
+#r9 {
+  background: url("9.jpg") center no-repeat;
+  background-size: cover;
+}
+#r10 {
+  background: url("10.jpg") center no-repeat;
+  background-size: cover;
+}
+#Messi {
+  background: url("Messi.png") center no-repeat;
+  background-size: cover;
+}
+#Ronaldo {
+  background: url("Ronaldo.png") center no-repeat;
+  background-size: cover;
+}
+#Hazard {
+  background: url("Hazard.png") center no-repeat;
+  background-size: cover;
+}
+#Salah {
+  background: url("Salah.png") center no-repeat;
+  background-size: cover;
+}
+#Neymar {
+  background: url("Neymar.png") center no-repeat;
+  background-size: cover;
+}
+#Griezmann {
+  background: url("Griezmann.png") center no-repeat;
+  background-size: cover;
+}
+#Mbappe {
+  background: url("Mbappe.png") center no-repeat;
+  background-size: cover;
+}
+#Lewandowski {
+  background: url("Lewandowski.png") center no-repeat;
+  background-size: cover;
+}
+#Kane {
+  background: url("Kane.png") center no-repeat;
+  background-size: cover;
+}
+.rank {
+  height: 300px;
+  width: 200px;
+  margin: 50%;
+}
+.name {
+  height: 250px;
+  width: 250px;
+}
+.club {
+  width: 600px;
+  height: 300px;
+}
+
+.main {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+}
+.mainmenu {
+  text-align: center;
+  background-color: #1F2831;
+  border: 1px solid #1F2831;
+  /*margin-top: 10;*/
+  position: relative;
+  z-index: 100;
+}
