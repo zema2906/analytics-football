@@ -1,7 +1,11 @@
 body {
   font: italic 8em "Gilroy", sans-serif;
+  background-color: #D6F1E8;
 }
 
+.lastAudio {
+  margin-bottom: 20px;
+}
 
 audio {
   margin-top: 50px;
